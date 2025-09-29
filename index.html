@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani Bharathi // AWS & DevOps Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="master-grid-background"></div>
+
+    <header>
+        <nav class="container">
+            <a href="#home" class="logo" data-text="Portfolio.">Portfolio.</a>
+            <ul class="nav-links">
+                <li><a href="#home">_home</a></li>
+                <li><a href="#about">_about</a></li>
+                <li><a href="#skills">_skills</a></li>
+                <li><a href="#projects">_projects</a></li>
+                <li><a href="#contact">_contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Hello, I am</p>
+                    <h1 class="glitch" data-text="Mani Bharathi">Mani Bharathi</h1>
+                    <p class="title">A <span class="typing-text"></span></p>
+                    <p class="description">
+                        I build and automate resilient, scalable cloud infrastructure. My focus is on creating efficient CI/CD pipelines and secure, cost-effective solutions.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/mani-bharathi-b06262249" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/leomani07" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:justinleomani@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <a href="#projects" class="btn">_view_my_work</a>
+                </div>
+                <div class="hero-image">
+                    <div class="hex-shape">
+                        <img src="assests/mani-bharathi.jpg" alt="Mani Bharathi Profile Picture">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding hidden">
+            <div class="container">
+                <h2>// About Me</h2>
+                <div class="about-content glass-card">
+                     <div class="card-glow"></div>
+                    <p>
+                        What drives me is the challenge of making systems more efficient and resilient. I like solving problems where cloud, automation, and scalability meet. I believe in continuous learning and regularly experiment with new tools, whether it’s improving observability, optimizing costs, or trying out modern DevOps practices.
+
+Outside of work, I spend time exploring side projects, contributing to my knowledge of cloud-native technologies, and sharpening my problem-solving skills. My long-term goal is to master advanced DevOps practices and contribute to building highly available, production-grade systems.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding hidden">
+            <div class="container">
+                <h2>// My Skillset</h2>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fa-brands fa-aws"></i><span>AWS Cloud</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-docker"></i><span>Docker</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-cube"></i><span>Terraform</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-jenkins"></i><span>Jenkins</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-git-alt"></i><span>Git & GitHub</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-linux"></i><span>Linux</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-chart-line"></i><span>Prometheus</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-code"></i><span>Ansible</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding hidden">
+            <div class="container">
+                <h2>// My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="card-glow"></div>
+                        <img src="assests/project1.jpg" alt="3-Tier Architecture Project">
+                        <h3>AWS 3-Tier Architecture</h3>
+                        <p>A fully automated 3-tier architecture on AWS, provisioned with Terraform and configured with Ansible, featuring a complete Jenkins CI/CD pipeline.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/leomani07/aws-3-tier-architecture" target="_blank" class="btn">_view_source</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-glow"></div>
+                        <img src="assests/project2.jpg" alt="2-Tier Architecture Project">
+                        <h3>IaC with Terraform</h3>
+                        <p>Automated provisioning for EC2 and RDS instances, ensuring consistent, secure, and rapidly deployable environments using Terraform modules.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/leomani07/terraform-automation" target="_blank" class="btn">_view_source</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-glow"></div>
+                        <img src="assests/project3.jpg" alt="Blog Application Project">
+                        <h3>Dockerized Flask App</h3>
+                        <p>A containerized Flask blog application, orchestrated with Docker Compose for web, database, and Nginx reverse proxy services.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/leomani07/docker-flask-blog" target="_blank" class="btn">_view_source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section-padding hidden">
+            <div class="container">
+                <h2>// Get In Touch</h2>
+                <p>Open to new opportunities and collaborations. Let's create something impactful.</p>
+                <div class="contact-links">
+                    <a href="mailto:justinleomani@gmail.com" class="btn">_send_email</a>
+                    <a href="https://www.linkedin.com/in/mani-bharathi-b06262249" class="btn">_linkedin</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Mani Bharathi © 2025 // Built with code & coffee</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
