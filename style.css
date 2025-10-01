@@ -170,6 +170,7 @@ nav .nav-links a:hover { color: var(--accent-glow); text-shadow: 0 0 5px var(--a
 .project-card p { padding: 0 1.5rem; color: var(--text-medium); flex-grow: 1; }
 .project-links { padding: 1.5rem; }
 
+
 /* --- Contact Section --- */
 #contact { text-align: center; }
 #contact p { margin-bottom: 2.5rem; font-size: 1.2rem; }
