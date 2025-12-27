@@ -198,3 +198,76 @@ footer { text-align: center; padding: 2.5rem; font-size: 0.9rem; border-top: 1px
     h1 { font-size: 2.8rem; }
     h2 { font-size: 2.2rem; }
 }
+/* --- Certificates Section --- */
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.certificate-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.certificate-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px var(--accent-glow);
+}
+
+.certificate-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.certificate-content {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.certificate-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.certificate-bg {
+    position: relative;
+    padding: 4rem 2rem;
+    background:
+        linear-gradient(
+            rgba(10, 10, 10, 0.85),
+            rgba(10, 10, 10, 0.85)
+        ),
+        url("images/cloud-devops-test-product.jpg");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.masters-certificate-bg {
+    position: relative;
+    padding: 4rem 2rem;
+    background:
+        linear-gradient(
+            rgba(10, 10, 10, 0.88),
+            rgba(10, 10, 10, 0.88)
+        ),
+        url("images/masters-cloud-devops.jpg");
+
+    background-repeat: contain;
+    background-position: no-repeat;
+    background-size: center;
+}
+
+
+.masters-certificate-bg {
+    background-size: 420px;
+}
+.certificate-bg {
+    background-size: 420px;
+}
